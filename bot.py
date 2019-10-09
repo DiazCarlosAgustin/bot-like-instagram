@@ -2,11 +2,13 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
+import os
 
 class TwitterBot:
-    def __init__(self, username, password):
+    def __init__(self, username, password,url):
         self.username = username
         self.password = password
+        self.url = url
         # navegador usado
         self.bot = webdriver.Firefox()
     
@@ -35,9 +37,9 @@ class TwitterBot:
         bot.find_element_by_class_name('bIiDR').click()
         time.sleep(2)
         # url del usuario al que voy a dar like
-        bot.get('url_perfil') 
+        bot.get(self.url) 
         time.sleep(2)
-        for e in range(1,10):
+        for e in range(1,20):
             time.sleep(1)
             # realiza un scroll
             bot.execute_script('window.scrollTo(0,document.body.scrollHeight)')
@@ -46,9 +48,16 @@ class TwitterBot:
             posts = bot.find_elements_by_class_name('v1Nh3')
             # guardo en un array las url de cada foto en los posts
             links = [elem.find_element_by_css_selector('a').get_attribute('href') for elem in posts]
+            a = open("imgs.txt","w")
+            for link in links:
+                a.write(link + "\n")
 
-        #recorre todos los links que guardo en el paso anterior y va entrando a cada foto y da like 
-        for link in links:
+            a.close()
+        # #recorre todos los links que guardo en el paso anterior y va entrando a cada foto y da like 
+        l = open("imgs.txt")
+        linea = l.readline()
+        while linea != "":
+            link = linea
             bot.get(link)
             try:
                 # hago click en el corazon para dar like a la foto
@@ -56,7 +65,12 @@ class TwitterBot:
                 time.sleep(10)
             except Exception:
                 time.sleep(30)
+            linea = l.readline()
 
-ad = TwitterBot('user','pass')
+
+user = input("Usuario: ")
+contra = input("Contraseña: ")
+url = input("URL del usuario: ")
+ad = TwitterBot(user,contra,url)
 ad.login()
 ad.like()
