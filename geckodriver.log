@@ -4204,3 +4204,700 @@ A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1572821842821	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\AGUSTI~1\\AppData\\Local\\Temp\\rust_mozprofile.WR0NWd9AeC5J"
+1572821847649	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1572821847649	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1572821847649	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1572821847650	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+console.error: "Could not write session state file " (new Error("_initWorker called too early! Please read the session file from disk first.", "resource:///modules/sessionstore/SessionFile.jsm", 334)) "_initWorker/<@resource:///modules/sessionstore/SessionFile.jsm:334:15\n_initWorker@resource:///modules/sessionstore/SessionFile.jsm:327:12\n_postToWorker@resource:///modules/sessionstore/SessionFile.jsm:351:16\nwrite@resource:///modules/sessionstore/SessionFile.jsm:390:24\nwrite@resource:///modules/sessionstore/SessionFile.jsm:63:32\n_writeState@resource:///modules/sessionstore/SessionSaver.jsm:354:24\n_saveState@resource:///modules/sessionstore/SessionSaver.jsm:292:17\n_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:338:10\nsaveStateAsyncWhenIdle@resource:///modules/sessionstore/SessionSaver.jsm:189:14\ncallback@resource://gre/modules/Timer.jsm:100:7\n"
+[Parent 4992, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1572821872648	Marionette	INFO	Listening on port 55172
+1572821873502	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 4992, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8776, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8776, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x53000D,name=PHttpChannel::Msg_RemoveCorsPreflightCacheEntry) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+[Parent 4992, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 4992, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 4992, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9320, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9320, C1572821938531	Marionette	INFO	Stopped listening on port 55172
+1572822009136	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\AGUSTI~1\\AppData\\Local\\Temp\\rust_mozprofile.Uce5FQvOkGHb"
+1572822012041	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1572822012041	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1572822012042	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1572822012042	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1572822019350	Marionette	INFO	Listening on port 55322
+1572822019428	Marionette	WARN	TLS certificate errors will be ignored for this session
+1572822043686	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+[Parent 3356, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 6764, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+[Parent 3356, Gecko_IOThread] WARNING: file z:/task_1565706750/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
+[Parent 3356, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 3356, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 3356, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 3356, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1572822093635	Marionette	INFO	Stopped listening on port 55322
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 8752, Chrome_ChildThread] WARNING: pipe1572822179024	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\AGUSTI~1\\AppData\\Local\\Temp\\rust_mozprofile.cgeKvb3BoIoz"
+1572822181780	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1572822181781	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1572822181781	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1572822181781	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1572822189553	Marionette	INFO	Listening on port 55470
+1572822189766	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+[Parent 8512, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 8512, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 8512, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 8512, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 4764, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 4764, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_[Parent 8512, Gecko_IOThread] WARNING: file z:/task_1565706750/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
+1572822411122	Marionette	INFO	Stopped listening on port 55470
+1572822431323	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\AGUSTI~1\\AppData\\Local\\Temp\\rust_mozprofile.4XclK0pPIvkH"
+1572822433682	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1572822433682	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1572822433682	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1572822433683	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1572822439246	Marionette	INFO	Listening on port 55704
+1572822439648	Marionette	WARN	TLS certificate errors will be ignored for this session
+1572822455932	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+[Parent 6596, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 6596, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 6596, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1572822661316	Marionette	INFO	Stopped listening on port 55704
+ manifest: Invalid extension permission: telemetry
+1572822589428	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1572822589429	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1572822596078	Marionette	INFO	Listening on port 55838
+1572822596568	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 7844, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10324, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 7844, Gecko_IOThread] WARNING: file z:/task_1565706750/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
+console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 374))
+1572822672335	Marionette	INFO	Stopped listening on port 55838
+[GPU 5268, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/i
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+pc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1572822784054	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\AGUSTI~1\\AppData\\Local\\Temp\\rust_mozprofile.EplgDoTeu6dD"
+1572822786550	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1572822786551	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1572822786551	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1572822786551	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[Parent 10992, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3936, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3936, Chrome_Ch1572822793225	Marionette	INFO	Listening on port 56012
+1572822793636	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 10992, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 10992, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x53000D,name=PHttpChannel::Msg_RemoveCorsPreflightCacheEntry) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+[Parent 10992, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[C1572822882451	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\AGUSTI~1\\AppData\\Local\\Temp\\rust_mozprofile.6yYPR9jkKFbW"
+1572822884133	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1572822884134	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1572822884134	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1572822884134	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1572822889200	Marionette	INFO	Listening on port 56117
+1572822889348	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221572653775258%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+[Child 6452, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 6288, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 6288, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3772, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 6288, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11028, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11028, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1572823589531	Marionette	INFO	Stopped listening on port 56117
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 7488, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 4646: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]
+NING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 9164, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_15657067501572823563896	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1572823563896	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1572823563897	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1572823563897	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[Parent 10284, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3188, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3188, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/c
+###!!! [Parent][MessageChannel] Error: (msgtype=0x35005A,name=PContent::Msg_ProvideAnonymousTemporaryFile) Closed channel: cannot send/recv
+
+console.error: "Could not write session state file " (new Error("_initWorker called too early! Please read the session file from disk first.", "resource:///modules/sessionstore/SessionFile.jsm", 334)) "_initWorker/<@resource:///modules/sessionstore/SessionFile.jsm:334:15\n_initWorker@resource:///modules/sessionstore/SessionFile.jsm:327:12\n_postToWorker@resource:///modules/sessionstore/SessionFile.jsm:351:16\nwrite@resource:///modules/sessionstore/SessionFile.jsm:390:24\nwrite@resource:///modules/sessionstore/SessionFile.jsm:63:32\n_writeState@resource:///modules/sessionstore/SessionSaver.jsm:354:24\n_saveState@resource:///modules/sessionstore/SessionSaver.jsm:292:17\n_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:338:10\nsaveStateAsyncWhenIdle@resource:///modules/sessionstore/SessionSaver.jsm:189:14\ncallback@resource://gre/modules/Timer.jsm:100:7\n"
+[Child 6128, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 6128, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 10284, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 10284, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+console.log: "RemoteSettingsWorker error: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code."
+JavaScript error: resource://gre/modules/IndexedDB.jsm, line 349: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1572823625865	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\AGUSTI~1\\AppData\\Local\\Temp\\rust_mozprofile.xydXgPUBCPN6"
+1572823626889	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1572823626889	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1572823626890	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1572823626890	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1572823633209	Marionette	INFO	Listening on port 56727
+1572823633703	Marionette	WARN	TLS certificate errors will be ignored for this session
+1572823655148	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+[Parent 2804, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x53000D,name=PHttpChannel::Msg_RemoveCorsPreflightCacheEntry) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+1572823729929	Marionette	INFO	Stopped listening on port 56727
+[GPU 11000, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1572823745019	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\AGUSTI~1\\AppData\\Local\\Temp\\rust_mozprofile.yKSOq80tO4hp"
+1572823746793	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1572823746794	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1572823746794	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1572823746795	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[Parent 5876, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7308, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7308, Chrome_ChildThread] WARNING: pipe 1572823753822	Marionette	INFO	Listening on port 56851
+1572823753948	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 5876, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221572653775258%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+[Parent 5876, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7368, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 5876, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 5292, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 5292, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1572824346850	Marionette	INFO	Stopped listening on port 56851
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+d the session file from disk first.", "resource:///modules/sessionstore/SessionFile.jsm", 334)) "_initWorker/<@resource:///modules/sessionstore/SessionFile.jsm:334:15\n_initWorker@resource:///modules/sessionstore/SessionFile.jsm:327:12\n_postToWorker@resource:///modules/sessionstore/SessionFile.jsm:351:16\nwrite@resource:///modules/sessionstore/SessionFile.jsm:390:24\nwrite@resource:///modules/sessionstore/SessionFile.jsm:63:32\n_writeState@resource:///modules/sessionstore/SessionSaver.jsm:354:24\n_saveState@resource:///modules/sessionstore/SessionSaver.jsm:292:17\n_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:338:10\nsaveStateAsyncWhenIdle@resource:///modules/sessionstore/SessionSaver.jsm:189:14\ncallback@resource://gre/modules/Timer.jsm:100:7\n"
+1572823843413	Marionette	INFO	Listening on port 56949
+1572823843675	Marionette	WARN	TLS certificate errors will be ignored for this session
+1572823867614	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+console.warn: "Error while detaching the thread front: 'detach' request packet to 'server1.conn0.child1/context18' can't be sent as the connection is closed."
+[Parent 10892, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 6764, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x53000D,name=PHttpChannel::Msg_RemoveCorsPreflightCacheEntry) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+1572823903508	Marionette	INFO	Stopped listening on port 56949
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 8608, Chrome_ChildThread] WARNING1572823966192	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\AGUSTI~1\\AppData\\Local\\Temp\\rust_mozprofile.pVusS6JTVfuk"
+1572823968817	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1572823968817	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1572823968817	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1572823968817	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+console.error: "Could not write session state file " (new Error("_initWorker called too early! Please read the session file from disk first.", "resource:///modules/sessionstore/SessionFile.jsm", 334)) "_initWorker/<@resource:///modules/sessionstore/SessionFile.jsm:334:15\n_initWorker@resource:///modules/sessionstore/SessionFile.jsm:327:12\n_postToWorker@resource:///modules/sessionstore/SessionFile.jsm:351:16\nwrite@resource:///modules/sessionstore/SessionFile.jsm:390:24\nwrite@resource:///modules/sessionstore/SessionFile.jsm:63:32\n_writeState@resource:///modules/sessionstore/SessionSaver.jsm:354:24\n_saveState@resource:///modules/sessionstore/SessionSaver.jsm:292:17\n_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:338:10\nsaveStateAsyncWhenIdle@resource:///modules/sessionstore/SessionSaver.jsm:189:14\ncallback@resource://gre/modules/Timer.jsm:100:7\n"
+[Parent 5664, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 668, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 668, Chrome_ChildT1572823979946	Marionette	INFO	Listening on port 57068
+1572823980326	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+1572824003146	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+[Parent 5664, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1868, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1868, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x53000D,name=PHttpChannel::Msg_RemoveCorsPreflightCacheEntry) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+[Parent 5664, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1572824069869	Marionette	INFO	Stopped listening on port 57068
+1572824120866	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\AGUSTI~1\\AppData\\Local\\Temp\\rust_mozprofile.IQkUQl0ujB51"
+1572824123844	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1572824123844	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1572824123845	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1572824123845	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+console.error: "Could not write session state file " (new Error("_initWorker called too early! Please read the session file from disk first.", "resource:///modules/sessionstore/SessionFile.jsm", 334)) "_initWorker/<@resource:///modules/sessionstore/SessionFile.jsm:334:15\n_initWorker@resource:///modules/sessionstore/SessionFile.jsm:327:12\n_postToWorker@resource:///modules/sessionstore/SessionFile.jsm:351:16\nwrite@resource:///modules/sessionstore/SessionFile.jsm:390:24\nwrite@resource:///modules/sessionstore/SessionFile.jsm:63:32\n_writeState@resource:///modules/sessionstore/SessionSaver.jsm:354:24\n_saveState@resource:///modules/sessionstore/SessionSaver.jsm:292:17\n_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:338:10\nsaveStateAsyncWhenIdle@resource:///modules/sessionstore/SessionSaver.jsm:189:14\ncallback@resource://gre/modules/Timer.jsm:100:7\n"
+1572824136524	Marionette	INFO	Listening on port 57206
+1572824136598	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+1572824159833	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+[Parent 8860, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x53000D,name=PHttpChannel::Msg_RemoveCorsPreflightCacheEntry) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+[Parent 8860, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1572824195309	Marionette	INFO	Stopped listening on port 57206
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 6132, Chrome_ChildThread] WARN1572824214152	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\AGUSTI~1\\AppData\\Local\\Temp\\rust_mozprofile.cPNQ4wq2tNhd"
+1572824216743	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1572824216743	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1572824216744	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1572824216744	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1572824223165	Marionette	INFO	Listening on port 57309
+1572824223595	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+1572824246213	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+[Parent 10872, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7724, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7724, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x53000D,name=PHttpChannel::Msg_RemoveCorsPreflightCacheEntry) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+[Parent 10872, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1572824338799	Marionette	INFO	Stopped listening on port 57309
+[GPU 1132, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/ch
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1572824345118	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\AGUSTI~1\\AppData\\Local\\Temp\\rust_mozprofile.xrt8IbL8y81X"
+1572824347366	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1572824347366	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1572824347367	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1572824347367	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1572824355099	Marionette	INFO	Listening on port 57431
+1572824355575	Marionette	WARN	TLS certificate errors will be ignored for this session
+1572824379481	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+[Parent 2408, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10120, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1572824406290	Marionette	INFO	Stopped listening on port 57431
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1572824413077	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\AGUSTI~1\\AppData\\Local\\Temp\\rust_mozprofile.g2WOvricuycD"
+1572824414187	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1572824414187	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1572824414188	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1572824414188	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[Child 9780, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9780, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1572824421788	Marionette	INFO	Listening on port 57516
+1572824422017	Marionette	WARN	TLS certificate errors will be ignored for this session
+1572824443584	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+console.warn: "Error while detaching the thread front: 'detach' request packet to 'server1.conn0.child1/context18' can't be sent as the connection is closed."
+[Parent 3316, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x53000D,name=PHttpChannel::Msg_RemoveCorsPreflightCacheEntry) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+[Child 6464, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 6464, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.1572824706293	Marionette	INFO	Stopped listening on port 57516
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+1572824533562	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+[Parent 7616, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 908, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x53000D,name=PHttpChannel::Msg_RemoveCorsPreflightCacheEntry) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+[Parent 7616, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1572824706278	Marionette	INFO	Stopped listening on port 57611
+hannel_win.cc, line 341
+console.error: "Could not write session state file " (new Error("_initWorker called too early! Please read the session file from disk first.", "resource:///modules/sessionstore/SessionFile.jsm", 334)) "_initWorker/<@resource:///modules/sessionstore/SessionFile.jsm:334:15\n_initWorker@resource:///modules/sessionstore/SessionFile.jsm:327:12\n_postToWorker@resource:///modules/sessionstore/SessionFile.jsm:351:16\nwrite@resource:///modules/sessionstore/SessionFile.jsm:390:24\nwrite@resource:///modules/sessionstore/SessionFile.jsm:63:32\n_writeState@resource:///modules/sessionstore/SessionSaver.jsm:354:24\n_saveState@resource:///modules/sessionstore/SessionSaver.jsm:292:17\n_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:338:10\nsaveStateAsyncWhenIdle@resource:///modules/sessionstore/SessionSaver.jsm:189:14\ncallback@resource://gre/modules/Timer.jsm:100:7\n"
+1572824695782	Marionette	INFO	Listening on port 57761
+1572824696289	Marionette	WARN	TLS certificate errors will be ignored for this session
+1572824729893	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+[Parent 7848, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 7848, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x53000D,name=PHttpChannel::Msg_RemoveCorsPreflightCacheEntry) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+[Child 2424, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 2424, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1572824775743	Marionette	INFO	Stopped listening on port 57761
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 9436, Chrome_ChildThread] WARNING: pipe
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1572824818469	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\AGUSTI~1\\AppData\\Local\\Temp\\rust_mozprofile.uXXruFksUGQG"
+1572824820045	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1572824820046	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1572824820046	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1572824820047	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1572824826278	Marionette	INFO	Listening on port 57881
+1572824826337	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+1572824849085	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221572653775258%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/8a8ee54bc73a.js, line 110: NotFoundError: The operation failed because the requested database object could not be found. For example, an object store did not exist but was being opened.
+[Parent 11592, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 11592, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 11592, Gecko_IOThread] WARNING: file z:/task_1565706750/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
+[Parent 11592, Gecko_IOThread] WARNING: file z:/task_1565706750/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
+[Parent 11592, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1572825622466	Marionette	INFO	Stopped listening on port 57881
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 4684, Chrome_ChildThread] WARNING: pip

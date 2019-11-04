@@ -39,33 +39,45 @@ class TwitterBot:
         # url del usuario al que voy a dar like
         bot.get(self.url) 
         time.sleep(2)
-        for e in range(1,20):
+        elements = bot.find_element_by_class_name('g47SY ')
+        cant = elements.get_attribute('innerHTML')
+        time.sleep(1)
+        bot.find_element_by_class_name('_9AhH0').click()
+        x = 0
+        y = int(cant)
+        print(y)
+        while x < y:
+            print(x)
             time.sleep(1)
             # realiza un scroll
-            bot.execute_script('window.scrollTo(0,document.body.scrollHeight)')
-            time.sleep(2)
-            # guardo todos los post encontrados mientras hago el scroll
-            posts = bot.find_elements_by_class_name('v1Nh3')
-            # guardo en un array las url de cada foto en los posts
-            links = [elem.find_element_by_css_selector('a').get_attribute('href') for elem in posts]
-            a = open("imgs.txt","w")
-            for link in links:
-                a.write(link + "\n")
-
-            a.close()
-        # #recorre todos los links que guardo en el paso anterior y va entrando a cada foto y da like 
-        l = open("imgs.txt")
-        linea = l.readline()
-        while linea != "":
-            link = linea
-            bot.get(link)
             try:
-                # hago click en el corazon para dar like a la foto
                 bot.find_element_by_class_name('glyphsSpriteHeart__outline__24__grey_9').click()
-                time.sleep(10)
             except Exception:
-                time.sleep(30)
-            linea = l.readline()
+                time.sleep(2)
+            time.sleep(1)
+            bot.find_element_by_class_name('HBoOv').click()
+            
+            x = x + 1
+        #     # guardo en un array las url de cada foto en los posts
+        #     links = [elem.find_element_by_css_selector('a').get_attribute('href') for elem in posts]
+        #     a = open("imgs.txt","w")
+        #     for link in links:
+        #         a.write(link + "\n")
+
+        #     a.close()
+        # # #recorre todos los links que guardo en el paso anterior y va entrando a cada foto y da like 
+        # l = open("imgs.txt")
+        # linea = l.readline()
+        # while linea != "":
+        #     link = linea
+        #     bot.get(link)
+        #     try:
+        #         # hago click en el corazon para dar like a la foto
+        #         bot.find_element_by_class_name('glyphsSpriteHeart__outline__24__grey_9').click()
+        #         time.sleep(10)
+        #     except Exception:
+        #         time.sleep(30)
+        #     linea = l.readline()
 
 
 user = input("Usuario: ")
